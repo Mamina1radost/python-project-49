@@ -2,7 +2,7 @@ import prompt
 from random import randint
 from brain_games.cli import welcome_user
             
-            
+
 def even():
     name = welcome_user()
     i = 0
@@ -22,7 +22,7 @@ def even():
             print(f"{answer} is wrong answer ;(. Correct answer was {coll}.\nLet's try again, {name}!")
             break
     else:
-        print('Congratulations, Sam!')
+        print(f'Congratulations, {name}!')
 
 
 
