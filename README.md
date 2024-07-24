@@ -5,4 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d13ef4f7d80d89a90ef7/maintainability)](https://codeclimate.com/github/Mamina1radost/python-project-49/maintainability)
 
 ### Аскинема
-https://asciinema.org/connect/21f0e20f-f852-42ee-a6a0-2ec25f017e33
+https://asciinema.org/a/MZuBwLiUmgbQhhSXd8goFZrij
+https://asciinema.org/a/0TImRdezGUNiqIJMr9d4MLN7m
+https://asciinema.org/a/B1JOe4FJfHoxyZzjkuhIz8I90
+https://asciinema.org/a/mianbEqhsgliEK6iFiAthwDa4
