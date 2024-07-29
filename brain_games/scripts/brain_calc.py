@@ -23,4 +23,4 @@ def calc():
             print(f"{answer} is wrong answer ;(. Correct answer was '{cool}'.\nLet's try again, {name}")
             break
     else:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
