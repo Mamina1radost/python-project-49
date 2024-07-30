@@ -3,6 +3,19 @@ from brain_games.cli import welcome_user
 from random import randint
 
 
+def function(count):
+    if count <= 1:
+        cool = "no"
+    elif count > 1:
+        for chislo in range(2, int(count**0.5) + 1):
+            if count % chislo == 0:
+                cool = "no"
+                break
+    else:
+        cool = "yes"
+    return cool
+
+
 def prime():
     name = welcome_user()
     i = 0
@@ -10,16 +23,7 @@ def prime():
     while i < 3:
         count = randint(1, 100)
         print(f"Question: {count}")
-
-        if count <= 1:
-            cool = "no"
-        elif count > 1:
-            for chislo in range(2, int(count**0.5) + 1):
-                if count % chislo == 0:
-                    cool = "no"
-                    break
-            else:
-                cool = "yes"
+        cool = function(count)
         answer = prompt.string("Your answer: ")
         if answer == cool:
             print("Correct!")
