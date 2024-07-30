@@ -19,7 +19,8 @@ def even():
             print("Correct")
             i += 1
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was {coll}.\nLet's try again, {name}!")
+            print(f"""{answer} is wrong answer ;(. Correct answer was {coll}.
+            Let's try again, {name}!""")
             break
     else:
         print(f"Congratulations, {name}!")

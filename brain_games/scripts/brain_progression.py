@@ -24,7 +24,8 @@ def progression():
             print("Correct")
             i += 1
         elif cool != int(answer):
-            print(f"{answer} is wrong answer ;(. Correct answer was '{cool}'.\nLet's try again, {name}!")
+            print(f"""{answer} is wrong answer ;(. Correct answer was '{cool}'.
+            Let's try again, {name}!""")
             break
     else:
         print(f"Congratulations, {name}!")

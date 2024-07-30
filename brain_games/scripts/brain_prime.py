@@ -25,7 +25,8 @@ def prime():
             print("Correct!")
             i += 1
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was {cool}.\nLet's try again, {name}!")
+            print(f"""{answer} is wrong answer ;(. Correct answer was {cool}.
+            Let's try again, {name}!""")
             break
     else:
         print(f"Congratulations, {name}!")
