@@ -5,15 +5,12 @@ from random import randint
 
 def function(count):
     if count <= 1:
-        cool = "no"
+        return "no"
     elif count > 1:
         for chislo in range(2, int(count**0.5) + 1):
             if count % chislo == 0:
-                cool = "no"
-                break
-    else:
-        cool = "yes"
-    return cool
+                return "no"
+        return "yes"
 
 
 def prime():
