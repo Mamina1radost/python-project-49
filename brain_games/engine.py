@@ -10,7 +10,7 @@ def rungame(question, game):
         count, coll = game()
         print(f'Question: {count}')
         answer = prompt.string("Your answer: ")
-        if answer == coll:
+        if str(answer) == str(coll):
             print('Correct')
             i += 1
         else:
